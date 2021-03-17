@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test.bdd.AppTest" duration-ms="3" started-at="2021-03-12T14:30:09Z" finished-at="2021-03-12T14:30:09Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3" started-at="2021-03-12T14:30:09Z" finished-at="2021-03-12T14:30:09Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- test.bdd.AppTest -->
+</testng-results>

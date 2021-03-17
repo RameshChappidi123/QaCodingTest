@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "verify search results displayed correctly on google search page",
+        "description": "",
+        "id": "search-ducks-in-google-and-verify-result;verify-search-results-displayed-correctly-on-google-search-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15389463713,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open an browser",
+            "match": {
+              "location": "searchGoogleStepDef.open_an_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3843910402,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user search in google",
+            "match": {
+              "location": "searchGoogleStepDef.user_search_in_google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4227963100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify result page shows correct result",
+            "match": {
+              "location": "searchGoogleStepDef.verify_result_page_shows_correct_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "search Ducks in google and verify result",
+    "description": "This fature file will verify when user search with ducks it wll search only for ducks and show respective search page.",
+    "id": "search-ducks-in-google-and-verify-result",
+    "keyword": "Feature",
+    "uri": "src/test/java/test/bdd/searcchGoogle.feature"
+  }
+]
